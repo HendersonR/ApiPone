@@ -1,4 +1,4 @@
-namespace ApiPone.Models
+﻿namespace ApiPone.Models
 {
     public class TodoItem
     {
@@ -6,4 +6,5 @@ namespace ApiPone.Models
         public string Name { get; set; }
         public bool IsComplete { get; set; }
     }
+}
 }

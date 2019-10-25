@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace ApiPone.Models
 {
@@ -9,6 +9,7 @@ namespace ApiPone.Models
         {
         }
 
-        public DbSet<TodoContext> TodoItems { get; set;}
+        public DbSet<TodoContext> TodoItems { get; set; }
     }
+}
 }
